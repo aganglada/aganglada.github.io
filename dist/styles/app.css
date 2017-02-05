@@ -501,6 +501,12 @@ template {
     display: inline-block;
 }
 
+.icon--small {
+    width: 30px;
+    height: 40px;
+    background-size: 30px 40px;
+}
+
 .icon__angular {
     background-image: url('../../app/resources/svgs/angular.svg');
 }
@@ -511,6 +517,10 @@ template {
 
 .icon__node {
     background-image: url('../../app/resources/svgs/nodejs.svg');
+}
+
+.icon__html5 {
+    background-image: url('../../app/resources/svgs/html5.svg');
 }
 
 .icon__linkedin {
