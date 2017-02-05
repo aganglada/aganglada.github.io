@@ -1,0 +1,25 @@
+{
+  "name": "aganglada.github.io",
+  "version": "1.0.0",
+  "description": "personal website",
+  "main": "index.js",
+  "repository": "git@github.com:aganglada/aganglada.github.io.git",
+  "author": "myself",
+  "license": "MIT",
+  "scripts": {
+    "dev": "yarn postcss:dev",
+    "prod": "cssnano < dist/styles/app.css > dist/styles/app.min.css",
+    "postcss:dev": "postcss -c postcss.config.json -o dist/styles/app.css app/styles/app.pcss -w"
+  },
+  "dependencies": {
+    "babel-core": "^6.22.1",
+    "babel-preset-es2015": "^6.22.0",
+    "cssnano": "^3.10.0",
+    "cssnano-cli": "^1.0.5",
+    "postcss": "^5.2.11",
+    "postcss-cli": "^2.6.0",
+    "postcss-cssnext": "^2.9.0",
+    "postcss-import": "^9.1.0",
+    "postcss-url": "^5.1.2"
+  }
+}

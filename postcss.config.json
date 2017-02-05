@@ -1,0 +1,6 @@
+{
+  "use": ["autoprefixer", "postcss-import", "postcss-url"],
+  "autoprefixer": {
+    "browsers": ["ie >= 9", "last 2 versions"]
+  }
+}
