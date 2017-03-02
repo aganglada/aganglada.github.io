@@ -8,7 +8,7 @@
 }
 
 :root {
-    --color-blue: #2F3D5F;
+    --color-blue: #0366d6;
     --color-grey-lightest: #d6d6db;
     --color-grey-light: #afafb4;
     --color-grey: #5f5f64;
@@ -480,6 +480,11 @@ template {
   display: none;
 }
 
+ul {
+  padding: 0;
+  margin: 0;
+}
+
 /* Hidden
    ========================================================================== */
 
@@ -612,5 +617,11 @@ template {
 .footer {
   text-align: center;
   padding: 20px;
+}
+
+.menu__link {
+  font-size: 1.4em;
+  text-decoration: none;
+  color: var(--color-blue);
 }
 
